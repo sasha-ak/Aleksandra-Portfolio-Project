@@ -16,12 +16,15 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
-  color: black;
+  color: #272142;
 }
 
 h1 {
   font-size: 92px;
   font-weight: 900;
+}
+h2 {
+  opacity: 0.9;
 }
 p {
   font-weight: normal;
