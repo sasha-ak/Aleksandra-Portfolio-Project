@@ -31,9 +31,6 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-.container {
-  margin: 40px;
-}
 
 .hero {
   background-color: var(--secondary-color);
@@ -76,6 +73,11 @@ p {
 }
 .project-description {
   padding: 100px 60px;
+}
+
+.img-home-page {
+  width: 600px;
+  border-radius: 4px;
 }
 
 @media (max-width: 900px) {
