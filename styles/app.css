@@ -1,6 +1,7 @@
 :root {
   --branding-color: #815f54;
   --secondary-color: #f6f6f6;
+  --subtile-color: #33332f;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -40,7 +41,7 @@ p {
 .hero p {
   font-size: 36px;
   opacity: 0.8;
-  color: #272142;
+  color: var(--subtile-color);
 }
 .hero h2 {
   font-family: var(--default-font-family);
@@ -48,6 +49,23 @@ p {
   opacity: 0.9;
   font-size: 24px;
   line-height: 2;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 48px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section img {
+  width: 400px;
+  border-radius: 4px;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -57,6 +75,7 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -66,7 +85,9 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 .line {
   max-width: 50%;
   margin: 0 auto;
@@ -95,5 +116,16 @@ p {
   .hero h2 {
     font-size: 18px;
     line-height: 2;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 38px;
+  }
+  .about-section img {
+    margin: 20px;
+    width: 300px;
   }
 }
