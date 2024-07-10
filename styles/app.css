@@ -108,6 +108,35 @@ p {
   border-radius: 4px;
   width: 600px;
 }
+.logo {
+  max-width: 100px;
+}
+nav {
+  padding: 20px 0 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-size: 17px;
+  margin-left: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--subtile-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  font-size: 18px;
+  font-weight: 500;
+}
 
 @media (max-width: 900px) {
   .project-description {
@@ -135,5 +164,16 @@ p {
   .content-container img {
     margin: 20px;
     width: 300px;
+  }
+  nav li {
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  nav a:hover,
+  nav li.active a {
+    color: var(--branding-color);
+    font-size: 15px;
+    font-weight: 500;
   }
 }
