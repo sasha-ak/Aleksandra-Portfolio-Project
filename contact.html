@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aleksandra Frontend Developer</title>
+    <meta
+      name="description"
+      content="Please contact Aleksandra for a work inquery."
+    />
+    <title>Contact Aleksandra</title>
     <link rel="stylesheet" href="styles/app.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -28,27 +32,103 @@
     ></script>
   </head>
   <body>
-    <div class="content-container container">
-      <div class="content">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo2.PNG"
+            class="logo d-none d-md-block"
+            alt="Aleksandra logo"
+          />
+          <img
+            src="images/logo-small.PNG"
+            class="logo d-block d-md-none"
+            alt="Aleksandra logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Aleksandra">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Aleksandra's Work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Aleksandra">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container text-center">
+      <div class="contact-links">
         <h1 class="mb-5">Lets get in touch!</h1>
         <h3>Email</h3>
 
         <p>
-          <a href="mailto:aleksandra10ak@gmail.com">aleksandra10ak@gmail.com</a>
+          <a href="mailto:aleksandra.dafine@gmail.com"
+            >aleksandra.dafine@gmail.com</a
+          >
         </p>
         <h3>LinkedIn</h3>
         <p>
           <a href="https://www.linkedin.com/in/aleksandra-ak/" target="_blank"
-            >@aleksandra</a
+            >@aleksandra-ak</a
           >
         </p>
-        <h3>Instagram</h3>
+        <h3>Twitter</h3>
         <p>
-          <a href="https://www.linkedin.com/aleksandra.codes" target="_blank"
-            >@aleksandra.codes</a
-          >
+          <a href="https://x.com/sasha_codes_" target="_blank">sasha_codes_</a>
         </p>
       </div>
+
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between m-3 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Lets work together!</p>
+          </div>
+          <div class="m-3">
+            <a
+              href="/contact.html"
+              title="Contact Aleksandra"
+              class="btn-branding contact-me-footer"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center m-5"></div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://x.com/sasha_codes_" target="_blank"
+            ><i class="fa-brands fa-twitter" title="Twitter Profile"></i
+          ></a>
+          <a
+            href="https://github.com/sasha-ak"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aleksandra-ak/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="coded-by">
+          🐱‍🏍 This project was coded by Aleksandra and is
+          <a
+            href="https://github.com/sasha-ak/Aleksandra-Portfolio-Project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>

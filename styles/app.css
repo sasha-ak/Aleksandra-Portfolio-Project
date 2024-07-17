@@ -26,7 +26,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -35,11 +35,14 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.container {
+  margin: 20px 0 5px;
+}
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -54,7 +57,7 @@ p {
   line-height: 2;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 48px;
@@ -70,6 +73,14 @@ p {
 
 .content p {
   font-size: 14px;
+}
+.contact-links a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 20px;
+}
+.contact-links a:hover {
+  font-weight: 500;
 }
 
 .content {
@@ -114,8 +125,9 @@ p {
 .logo {
   max-width: 100px;
 }
-nav {
-  padding: 20px 0 0;
+
+.nav {
+  padding: 20px 0;
 }
 nav ul {
   margin: 0;
@@ -142,7 +154,7 @@ nav li.active a {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 100px 0;
 }
 footer .contact-box {
   background-color: var(--secondary-color);
@@ -182,9 +194,22 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
   font-size: 23px;
 }
+footer .coded-by {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+  margin: 50px;
+}
+footer .coded-by a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+footer .coded-by a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 900px) {
-  h4 {
+  h3 {
     font-size: 18px;
   }
   .btn-branding {
@@ -206,12 +231,13 @@ footer .social-links a:hover {
     font-size: 18px;
     line-height: 2;
   }
+
   .content-container {
     text-align: center;
     padding: 0;
   }
   .content-container h1 {
-    font-size: 38px;
+    font-size: 34px;
   }
   .content-container img {
     margin: 20px;

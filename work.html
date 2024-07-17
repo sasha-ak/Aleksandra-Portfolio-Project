@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aleksandra Frontend Developer</title>
+    <meta
+      name="description"
+      content="Find more information about Aleksandra's work and some of the projects she worked on."
+    />
+    <title>Aleksandra's Projects</title>
     <link rel="stylesheet" href="styles/app.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -28,42 +32,148 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo2.PNG"
+            class="logo d-none d-md-block"
+            alt="Aleksandra logo"
+          />
+          <img
+            src="images/logo-small.PNG"
+            class="logo d-block d-md-none"
+            alt="Aleksandra logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Aleksandra">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Aleksandra's Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Aleksandra">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
         <div class="row">
-          <div class="col-md-6 mb-4">
-            <img src="images/world-time1.PNG" class="img-fluid mb-3" alt="" />
+          <div class="col-md-6 mt-5 mb-4">
+            <a href="https://what-time-is-it-now.netlify.app/" target="_blank">
+              <img
+                src="images/world-time1.PNG"
+                class="img-fluid mb-3"
+                alt="World Clock Project preview"
+                title="Click to see the World Clock App"
+            /></a>
             <h3 class="m-0">World Clock Project</h3>
             <p class="text-muted">
               Built with HTML, CSS, JavaScript, using API
             </p>
           </div>
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/world-weather1.PNG"
-              class="img-fluid mb-3"
-              alt=""
-            />
+          <div class="col-md-6 mt-5 mb-4">
+            <a href="https://basic-meteo-app.netlify.app/" target="_blank">
+              <img
+                src="images/world-weather1.PNG"
+                class="img-fluid mb-3"
+                alt="Weather Project preview"
+                title="Click to see the Weather App"
+            /></a>
             <h3 class="m-0">Weather Project</h3>
             <p class="text-muted">
               Built with HTML, CSS, JavaScript, using API
             </p>
           </div>
-          <div class="col-md-6 mb-4">
-            <img src="images/ai-quotes1.PNG" class="img-fluid mb-3" alt="" />
+          <div class="col-md-6 mt-5 mb-4">
+            <a
+              href="https://ai-motivational-quotes.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="images/ai-quotes1.PNG"
+                class="img-fluid mb-3"
+                alt="AI Quotes Generator Project preview"
+                title="Click to see the AI Project"
+            /></a>
             <h3 class="m-0">AI Quotes Generator Project</h3>
             <p class="text-muted">
               Built with HTML, CSS, JavaScript, using API
             </p>
           </div>
-          <div class="col-md-6 mb-4">
-            <img src="images/tea-time-1.PNG" class="img-fluid mb-3" alt="" />
-            <h3 class="m-0">Tea Time Project</h3>
+          <div class="col-md-6 mt-5 mb-4">
+            <a href="https://tea-time-fun.netlify.app/" target="_blank">
+              <img
+                src="images/tea-time-1.PNG"
+                class="img-fluid mb-4"
+                alt="Tea Time Project preview"
+                title="Click to see the Tea Time Project"
+            /></a>
+            <h3 class="m-0">Tea Time Landing Page</h3>
             <p class="text-muted">Built with HTML, CSS</p>
           </div>
         </div>
       </div>
+
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between m-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Lets work together!</p>
+          </div>
+          <div class="m-3">
+            <a
+              href="/contact.html"
+              title="Contact Aleksandra"
+              class="btn-branding contact-me-footer"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center m-5">
+          <a
+            href="mailto:aleksandra.dafine@gmail.com"
+            class="email-link m-3"
+            title="email Aleksandra"
+            >aleksandra.dafine@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://x.com/sasha_codes_" target="_blank"
+            ><i class="fa-brands fa-twitter" title="Twitter Profile"></i
+          ></a>
+          <a
+            href="https://github.com/sasha-ak"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aleksandra-ak/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="coded-by">
+          🐱‍🏍 This project was coded by Aleksandra and is
+          <a
+            href="https://github.com/sasha-ak/Aleksandra-Portfolio-Project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
